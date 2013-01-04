@@ -5,6 +5,8 @@ class Connection(object):
     """Maintains a connection to CARWINGS, refreshing it when needed"""
 
     BASE_URL = 'https://nissan-na-smartphone-biz.viaaq.com/aqPortal/smartphoneProxy'
+    
+    """Looks as if the European portal is: 'https://nissan-eu-smartphone-biz.viaaq.eu/aqPortal/smartphoneProxy' . Need further testing to prove """
 
     def __init__(self, username, password):
         self.username = username
