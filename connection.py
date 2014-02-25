@@ -6,8 +6,8 @@ class Connection(object):
 
     BASE_URL = 'https://nissan-na-smartphone-biz.viaaq.com/aqPortal/smartphoneProxy'
     
-    """Looks as if the European portal is: 'https://nissan-eu-smartphone-biz.viaaq.eu/aqPortal/smartphoneProxy' . Need further testing to prove """
-
+    """European portal BASE_URL= 'https://nissan-eu-smartphone-biz.viaaq.eu/aqPortal/smartphoneProxy' . Uncomment for EU operation"""
+    
     def __init__(self, username, password):
         self.username = username
         self.password = password
